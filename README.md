@@ -17,23 +17,21 @@ Construir um pipeline de dados **end-to-end** para um cenário educacional (empr
 - **Terraform** (representação de infraestrutura AWS — apenas código)
 
 ## Estrutura do Projeto
-data/
-raw/ # dados brutos (CSVs gerados)
-transformed/ # dados tratados (Parquet)
-src/
-generate_data.py
-etl_spark.py
-sql/
-01_create_tables.sql
-02_queries.sql
-docker/
-docker-compose.yml
-terraform/
-aws/ # IaC AWS (não aplicada)
-docs/ # diagramas e documentação auxiliar
+├── data/
+│   ├── raw/               
+│   └── transformed/       
+├── src/
+│   ├── generate_data.py
+│   └── etl_spark.py
+├── sql/
+│   ├── 01_create_tables.sql
+│   └── 02_queries.sql
+├── docker/
+│   └── docker-compose.yml
+├── terraform/
+│   └── aws/                # IaC AWS (não aplicada)
+└── docs/                   # diagramas e documentação auxiliar
 
-markdown
-Copiar código
 
 ## Como rodar (WIP)
 1. Subir MinIO e Postgres via Docker Compose
