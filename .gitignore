@@ -1,0 +1,14 @@
+# Python
+# Pasta que o Python cria automaticamente com arquivos compilados (cache). Não é código seu.
+__pycache__/ 
+# Arquivos compilados do Python (bytecode). Também não são parte do projeto.
+*.pyc
+.venv/
+venv/
+
+# Data (não subir dados grandes no git)
+data/raw/
+data/transformed/
+
+# Editor
+.vscode/
