@@ -18,7 +18,7 @@ Construir um pipeline de dados **end-to-end** para um cenário educacional (empr
 
 ## Estrutura do Projeto
 ├── data/
-│   ├── raw/               
+│   ├── raw/                
 │   └── transformed/       
 ├── src/
 │   ├── generate_data.py
