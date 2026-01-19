@@ -17,9 +17,10 @@ Construir um pipeline de dados **end-to-end** para um cenário educacional (empr
 - **Terraform** (representação de infraestrutura AWS — apenas código)
 
 ## Estrutura do Projeto
+.
 ├── data/
-│   ├── raw/                
-│   └── transformed/       
+│   ├── raw/
+│   └── transformed/
 ├── src/
 │   ├── generate_data.py
 │   └── etl_spark.py
@@ -29,8 +30,8 @@ Construir um pipeline de dados **end-to-end** para um cenário educacional (empr
 ├── docker/
 │   └── docker-compose.yml
 ├── terraform/
-│   └── aws/                # IaC AWS (não aplicada)
-└── docs/                   # diagramas e documentação auxiliar
+│   └── aws/            # IaC AWS (não aplicada)
+└── docs/               # diagramas e documentação auxiliar
 
 
 ## Como rodar (WIP)
